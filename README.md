@@ -12,7 +12,7 @@ Timeline for the crime incidents which has happened in the WashingtonDC State of
 1. Data was parsed into the EPSG4326 format. More details about WGS1984 can be found [here](https://epsg.io/4326)
 2. Both the data was asserted to have the same CRS format. 
 
-### 
+### Data Processing
 1. Crime Data had timestamp in object format, and had to be converted to DT object where the Month was extracted to group the data month wise. 
 2. Esri shape file doesn't support datatime, and hence the datatime column had to be removed. 
 
